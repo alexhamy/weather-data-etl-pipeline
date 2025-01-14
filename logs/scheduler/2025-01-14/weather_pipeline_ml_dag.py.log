@@ -586,3 +586,143 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'sklearn'
 [2025-01-14T00:27:33.760+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_pipeline_ml_dag.py
 [2025-01-14T00:27:33.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_pipeline_ml_dag.py took 0.295 seconds
+[2025-01-14T00:28:03.975+0000] {processor.py:161} INFO - Started process (PID=2529) to work on /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:28:03.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_pipeline_ml_dag.py for tasks to queue
+[2025-01-14T00:28:03.977+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:28:03.977+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:28:04.283+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:28:04.282+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_pipeline_ml_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_pipeline_ml_dag.py", line 8, in <module>
+    from sklearn.preprocessing import MinMaxScaler
+ModuleNotFoundError: No module named 'sklearn'
+[2025-01-14T00:28:04.283+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:28:04.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_pipeline_ml_dag.py took 0.322 seconds
+[2025-01-14T00:28:34.415+0000] {processor.py:161} INFO - Started process (PID=2588) to work on /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:28:34.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_pipeline_ml_dag.py for tasks to queue
+[2025-01-14T00:28:34.416+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:28:34.416+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:28:34.715+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:28:34.714+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_pipeline_ml_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_pipeline_ml_dag.py", line 8, in <module>
+    from sklearn.preprocessing import MinMaxScaler
+ModuleNotFoundError: No module named 'sklearn'
+[2025-01-14T00:28:34.716+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:28:34.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_pipeline_ml_dag.py took 0.318 seconds
+[2025-01-14T00:29:04.772+0000] {processor.py:161} INFO - Started process (PID=2647) to work on /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:29:04.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_pipeline_ml_dag.py for tasks to queue
+[2025-01-14T00:29:04.774+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:29:04.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:29:05.102+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:29:05.101+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_pipeline_ml_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_pipeline_ml_dag.py", line 8, in <module>
+    from sklearn.preprocessing import MinMaxScaler
+ModuleNotFoundError: No module named 'sklearn'
+[2025-01-14T00:29:05.102+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:29:05.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_pipeline_ml_dag.py took 0.346 seconds
+[2025-01-14T00:29:35.203+0000] {processor.py:161} INFO - Started process (PID=2706) to work on /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:29:35.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_pipeline_ml_dag.py for tasks to queue
+[2025-01-14T00:29:35.205+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:29:35.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:29:35.363+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:29:35.363+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_pipeline_ml_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_pipeline_ml_dag.py", line 8, in <module>
+    from sklearn.preprocessing import MinMaxScaler
+ModuleNotFoundError: No module named 'sklearn'
+[2025-01-14T00:29:35.364+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:29:35.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_pipeline_ml_dag.py took 0.176 seconds
+[2025-01-14T00:30:05.636+0000] {processor.py:161} INFO - Started process (PID=2765) to work on /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:30:05.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_pipeline_ml_dag.py for tasks to queue
+[2025-01-14T00:30:05.638+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:30:05.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:30:05.798+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:30:05.797+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_pipeline_ml_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_pipeline_ml_dag.py", line 8, in <module>
+    from sklearn.preprocessing import MinMaxScaler
+ModuleNotFoundError: No module named 'sklearn'
+[2025-01-14T00:30:05.798+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:30:05.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_pipeline_ml_dag.py took 0.179 seconds
+[2025-01-14T00:30:36.411+0000] {processor.py:161} INFO - Started process (PID=2824) to work on /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:30:36.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_pipeline_ml_dag.py for tasks to queue
+[2025-01-14T00:30:36.415+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:30:36.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:30:36.595+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:30:36.595+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_pipeline_ml_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_pipeline_ml_dag.py", line 8, in <module>
+    from sklearn.preprocessing import MinMaxScaler
+ModuleNotFoundError: No module named 'sklearn'
+[2025-01-14T00:30:36.596+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:30:36.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_pipeline_ml_dag.py took 0.205 seconds
+[2025-01-14T00:31:07.127+0000] {processor.py:161} INFO - Started process (PID=2883) to work on /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:31:07.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_pipeline_ml_dag.py for tasks to queue
+[2025-01-14T00:31:07.129+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:31:07.129+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:31:07.289+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:31:07.288+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_pipeline_ml_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_pipeline_ml_dag.py", line 8, in <module>
+    from sklearn.preprocessing import MinMaxScaler
+ModuleNotFoundError: No module named 'sklearn'
+[2025-01-14T00:31:07.289+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:31:07.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_pipeline_ml_dag.py took 0.177 seconds
+[2025-01-14T00:31:37.985+0000] {processor.py:161} INFO - Started process (PID=2942) to work on /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:31:37.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_pipeline_ml_dag.py for tasks to queue
+[2025-01-14T00:31:37.986+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:31:37.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:31:38.149+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:31:38.148+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_pipeline_ml_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_pipeline_ml_dag.py", line 8, in <module>
+    from sklearn.preprocessing import MinMaxScaler
+ModuleNotFoundError: No module named 'sklearn'
+[2025-01-14T00:31:38.149+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:31:38.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_pipeline_ml_dag.py took 0.181 seconds
+[2025-01-14T00:32:08.764+0000] {processor.py:161} INFO - Started process (PID=3001) to work on /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:32:08.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_pipeline_ml_dag.py for tasks to queue
+[2025-01-14T00:32:08.766+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:32:08.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:32:08.953+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:32:08.952+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_pipeline_ml_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_pipeline_ml_dag.py", line 8, in <module>
+    from sklearn.preprocessing import MinMaxScaler
+ModuleNotFoundError: No module named 'sklearn'
+[2025-01-14T00:32:08.953+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:32:09.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_pipeline_ml_dag.py took 0.304 seconds
+[2025-01-14T00:32:39.850+0000] {processor.py:161} INFO - Started process (PID=3060) to work on /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:32:39.851+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_pipeline_ml_dag.py for tasks to queue
+[2025-01-14T00:32:39.852+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:32:39.852+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:32:40.006+0000] {logging_mixin.py:188} INFO - [2025-01-14T00:32:40.005+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_pipeline_ml_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_pipeline_ml_dag.py", line 8, in <module>
+    from sklearn.preprocessing import MinMaxScaler
+ModuleNotFoundError: No module named 'sklearn'
+[2025-01-14T00:32:40.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_pipeline_ml_dag.py
+[2025-01-14T00:32:40.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_pipeline_ml_dag.py took 0.171 seconds
